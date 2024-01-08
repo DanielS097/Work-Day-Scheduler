@@ -10,3 +10,11 @@
         const description = timeBlock.find(".description").val();
         saveToLocalStorage(hour, description);
         });
+
+        function loadSavedData() {
+            $(".time-block").each(function () {
+                const hour = $(this).find(".hour").text();
+                const savedDescription = localStorage.getItem(hour);
+                $(this).find(".description").val(savedDescription);
+            });
+        }
