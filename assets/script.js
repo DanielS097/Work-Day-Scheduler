@@ -18,3 +18,8 @@
                 $(this).find(".description").val(savedDescription);
             });
         }
+
+        function saveToLocalStorage(hour, description) {
+            localStorage.setItem(hour, description);
+        }
+    });
