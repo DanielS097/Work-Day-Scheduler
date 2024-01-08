@@ -1,4 +1,4 @@
-### Work-Day-Scheduler
+# Work-Day-Scheduler
 
 ## What is this App?
 This app is an event scheduler for a typical 9-5 job. 
